@@ -1,0 +1,139 @@
+box-sizing()
+	-ms-box-sizing border-box
+	-moz-box-sizing border-box
+	-o-box-sizing border-box
+	-webkit-box-sizing border-box
+
+body
+	background #9AAFE5
+	font-size 18px
+
+.articulos
+	.elementos		
+		p			
+			margin 0.3em
+.contenido
+	background rgba(255,255,255,0.9)
+	display inline-blpck	
+	height 90%
+	margin 2em .9em
+	overflow hidden
+	overflow-y auto
+	padding 0
+	text-align center	
+	width 97.5%
+	h1		
+		margin 0
+		width 10em
+
+form
+	padding 2em 0
+	label
+	input
+	select
+		font-size 15px
+	input
+	select
+		margin-right 1em
+	.articulos
+		div
+			margin .2em
+			label
+				margin 0 2em 0 7em
+			input
+				margin 0 0 0 4em
+	.firmas
+		margin 1.5em 0
+		div
+			margin .5em 0
+			input
+				margin 0 5em 0 0
+			label
+				margin 0 3em
+
+header
+	background white
+	height 5.5em
+	margin 0.5em
+	overflow hidden
+	width 95%
+	img
+		height 80%
+		margin 0.5em 0.8em
+		width 97.5%
+// nav
+
+
+// 	
+// 	ul
+// 		height 40px
+// 		line-height 40px
+// 		margin 0
+// 		padding 0
+// 		overflow-x auto
+// 		white-space nowrap
+// 		&::-webkit-scrollbar
+// 			display none
+// 		li
+// 			cursor pointer
+// 			display inline-block
+// 			margin 0 3.8em
+// 			a
+// 				color white
+// 				text-decoration none				
+// 				&:hover
+// 					color white
+// 			&:hover				
+// 				background darken(blue, 10)
+
+nav	
+	background black
+	border-left 15px solid white
+	position relative
+	&:before
+		border-bottom 20px solid transparent
+		border-left 7px solid white
+		border-top 20px solid transparent
+		content ""
+		position absolute
+		top 0
+		left 0px
+	ul
+		height 40px
+		line-height 40px
+		margin 0
+		padding 0
+		list-style-type none
+		white-space nowrap
+		li
+			float left
+			display block
+			cursor pointer
+			margin 0 3em
+			a
+				font-weight bold
+				color white					
+				text-align center
+				padding 6px
+				text-decoration italic
+			&:hover
+				ul	
+					box-sizing()
+					background black
+					display block
+					height auto					
+					width  8em					
+					text-align center
+					li
+						border-style none
+						height auto
+						margin 0 .2em
+						text-align center
+						a 							
+							border-right green
+							// font-size .8em
+							margin 0 0
+							text-align center
+			ul
+				display none
+				position absolute

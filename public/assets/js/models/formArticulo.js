@@ -1,0 +1,1 @@
+Requisiciones.Models.formArticulo = Backbone.Model.extend({});
